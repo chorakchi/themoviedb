@@ -19,21 +19,27 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.chorakchi.the-moviedb"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
     },
     "extra": {
-      "REACT_APP_API_KEY" : "ef2ce0d1c4743db5f4da85d05a89cf53",
-      "REACT_APP_VERSION":"1.0.0",
-      "REACT_APP_API_URL":"https://api.themoviedb.org/3",
-      "REACT_APP_IMAGE_API_URL":"https://image.tmdb.org/t/p/original/IMAGE",
-      "REACT_APP_AUTHENTICATION_URL":"/authentication/token/new?api_key=API_KEY",
-      "REACT_APP_GENRE_URL":"/genre/movie/list?api_key=API_KEY&language=en-US",
-      "REACT_APP_DISCOVER_URL":"/discover/movie?api_key=API_KEY&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=PAGE_NUMBER&with_genres=GENRE_ID",
-      "REACT_APP_SEARCH_URL":"/search/company?api_key=API_KEY&query=QUERY&page=PAGE",
-      "REACT_APP_MOVIE_URL":"/movie/ID?api_key=API_KEY&language=en-US"
+      "REACT_APP_API_KEY": "ef2ce0d1c4743db5f4da85d05a89cf53",
+      "REACT_APP_VERSION": "1.0.0",
+      "REACT_APP_API_URL": "https://api.themoviedb.org/3",
+      "REACT_APP_IMAGE_API_URL": "https://image.tmdb.org/t/p/original/IMAGE",
+      "REACT_APP_AUTHENTICATION_URL": "/authentication/token/new?api_key=API_KEY",
+      "REACT_APP_GENRE_URL": "/genre/movie/list?api_key=API_KEY&language=en-US",
+      "REACT_APP_DISCOVER_URL": "/discover/movie?api_key=API_KEY&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=PAGE_NUMBER&with_genres=GENRE_ID",
+      "REACT_APP_SEARCH_URL": "/search/company?api_key=API_KEY&query=QUERY&page=PAGE",
+      "REACT_APP_MOVIE_URL": "/movie/ID?api_key=API_KEY&language=en-US"
+    },
+    "description": "",
+    "githubUrl": "https://github.com/chorakchi/themoviedb",
+    "android": {
+      "package": "com.chorakchi.themoviedb"
     }
   }
 }
