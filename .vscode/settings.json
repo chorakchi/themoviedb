@@ -1,0 +1,49 @@
+
+  "editor.formatOnSave": true,
+  // Enable per-language
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "xml": {
+      "attr_quotes": "single"
+    }
+  },
+  "editor.lineHeight": 22,
+  "javascript.validate.enable": false,
+  "javascript.suggest.autoImports": true,
+  "workbench.editor.enablePreview": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.trailingComma": "all",
+  "bracketPairColorizer.forceIterationColorCycle": true,
+  "editor.fontWeight": "500",
+  "editor.fontLigatures": true,
+  "editor.letterSpacing": 0.5,
+  "editor.cursorWidth": 5,
+  "editor.renderWhitespace": "all",
+  "editor.snippetSuggestions": "top",
+  "editor.glyphMargin": true,
+  "editor.minimap.enabled": false,
+  "terminal.integrated.fontWeight": "400",
+  "editor.fontFamily": "Fira Code, iA Writer Duospace, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "window.zoomLevel": -1,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "workbench.fontAliasing": "auto",
+  "terminal.integrated.macOptionIsMeta": true,
+
+  "prettier.bracketSpacing": true,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeightBold": "700",
+  "terminal.integrated.lineHeight": 1.6,
+  "workbench.colorTheme": "Shades of Purple",
+  // SOP's Import Cost Extension Settings.
+  "importCost.largePackageColor": "#EC3A37F5",
+  "importCost.mediumPackageColor": "#B362FF",
+  "importCost.smallPackageColor": "#B362FF"
+}
