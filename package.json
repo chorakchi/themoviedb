@@ -7,7 +7,7 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "test": "jest --watchAll",
-    "preinstall": "npm i expo"
+    "preinstall": "npm install -g expo-cli"
   },
   "jest": {
     "preset": "jest-expo"
